@@ -1,0 +1,42 @@
+{
+    "language": "eng",
+    "license": "MIT",
+    "title": "GLAM-Workbench/trove-web-archives",
+    "related_identifiers": [
+      {
+        "scheme": "url",
+        "identifier": "https://github.com/GLAM-Workbench/trove-web-archives/tree/v0.0.0",
+        "relation": "isDerivedFrom",
+        "resource_type": "software"
+      },
+      {
+        "scheme": "url",
+        "identifier": "https://glam-workbench.net/trove-web-archives/",
+        "relation": "isDocumentedBy",
+        "resource_type": "publication-softwaredocumentation"
+      },
+      {
+        "scheme": "url",
+        "identifier": "https://glam-workbench.net/",
+        "relation": "isPartOf",
+        "resource_type": "other"
+      }
+    ],
+    "version": "v0.0.0",
+    "upload_type": "software",
+    "keywords": [
+      "digital humanities",
+      "Jupyter",
+      "GLAM Workbench"
+    ],
+    "publication_date": "2024-03-03",
+    "creators": [
+    {
+        "name": "Sherratt, Tim",
+        "orcid": "0000-0001-7956-4498"
+    }
+],
+    "access_right": "open",
+    "description": ""
+  }
+  

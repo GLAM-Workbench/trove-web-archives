@@ -1,0 +1,34 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "datePublished": "2024-03-03",
+            "description": "Tools and examples to woth with Pandora",
+            "name": "Trove web archives",
+            "url": "https://github.com/GLAM-Workbench/trove-web-archives",
+            "version": "0.0.0"
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-7956-4498",
+            "@type": "Person",
+            "name": "Sherratt, Tim"
+        }
+    ]
+}
