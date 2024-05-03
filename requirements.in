@@ -5,3 +5,14 @@ pandas
 requests
 altair
 jupyter-archive
+requests-cache
+surt
+# because of virtualenv
+filelock==3.13.1
+ipywidgets
+beautifulsoup4
+lxml
+tqdm
+rocrate
+ipynbname
+python-slugify
