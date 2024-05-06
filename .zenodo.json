@@ -1,42 +1,41 @@
 {
-    "language": "eng",
-    "license": "MIT",
-    "title": "GLAM-Workbench/trove-web-archives",
-    "related_identifiers": [
-      {
-        "scheme": "url",
-        "identifier": "https://github.com/GLAM-Workbench/trove-web-archives/tree/v0.0.0",
-        "relation": "isDerivedFrom",
-        "resource_type": "software"
-      },
-      {
-        "scheme": "url",
-        "identifier": "https://glam-workbench.net/trove-web-archives/",
-        "relation": "isDocumentedBy",
-        "resource_type": "publication-softwaredocumentation"
-      },
-      {
-        "scheme": "url",
-        "identifier": "https://glam-workbench.net/",
-        "relation": "isPartOf",
-        "resource_type": "other"
-      }
-    ],
-    "version": "v0.0.0",
-    "upload_type": "software",
-    "keywords": [
-      "digital humanities",
-      "Jupyter",
-      "GLAM Workbench"
-    ],
-    "publication_date": "2024-03-03",
-    "creators": [
+  "language": "eng",
+  "license": "MIT",
+  "title": "GLAM-Workbench/trove-web-archives",
+  "related_identifiers": [
     {
-        "name": "Sherratt, Tim",
-        "orcid": "0000-0001-7956-4498"
+      "scheme": "url",
+      "identifier": "https://github.com/GLAM-Workbench/trove-web-archives/tree/v1.0.0",
+      "relation": "isDerivedFrom",
+      "resource_type": "software"
+    },
+    {
+      "scheme": "url",
+      "identifier": "https://glam-workbench.net/trove-web-archives/",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-softwaredocumentation"
+    },
+    {
+      "scheme": "url",
+      "identifier": "https://glam-workbench.net/",
+      "relation": "isPartOf",
+      "resource_type": "other"
     }
-],
-    "access_right": "open",
-    "description": ""
-  }
-  
+  ],
+  "version": "v1.0.0",
+  "upload_type": "software",
+  "keywords": [
+    "digital humanities",
+    "Jupyter",
+    "GLAM Workbench"
+  ],
+  "publication_date": "2024-05-06",
+  "creators": [
+    {
+      "name": "Sherratt, Tim",
+      "orcid": "0000-0001-7956-4498"
+    }
+  ],
+  "access_right": "open",
+  "description": "<p>A GLAM Workbench repository</p> <p>For more information and documentation see the <a href=\"https://glam-workbench.net/trove-web-archives\">Trove web archive collections (Pandora)</a> section of the <a href=\"https://glam-workbench.net\">GLAM Workbench</a>.</p> <h2 id=\"notebooks\">Notebooks</h2> <ul> <li>Create title datasets from collections and subjects</li> <li>Harvest Pandora subjects and collections</li> <li>Harvest the full collection of Pandora titles</li> </ul> <h2 id=\"associated-datasets\">Associated datasets</h2> <ul> <li><a href=\"https://github.com/GLAM-Workbench/trove-web-archives-collections\">trove-web-archives-collections</a></li> <li><a href=\"https://github.com/GLAM-Workbench/trove-web-archives-titles\">trove-web-archives-titles</a></li> </ul> <hr /> <p>Created by <a href=\"https://timsherratt.au\">Tim Sherratt</a> for the <a href=\"https://glam-workbench.net\">GLAM Workbench</a></p>"
+}
