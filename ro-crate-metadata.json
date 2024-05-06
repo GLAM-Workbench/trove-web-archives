@@ -148,7 +148,7 @@
             "conformsTo": {
                 "@id": "https://purl.archive.org/textcommons/profile#Notebook"
             },
-            "description": "This notebook harvests Pandora's navigation hierarchy, saving the connections between subjects, collections, and titles. The datasets created can be used to assemble subject-based collections of archived websites for research.",
+            "description": "This notebook harvests Pandora's navigation hierarchy, saving the connections between subjects, collections, and titles.\n\nThe [Pandora](http://pandora.nla.gov.au/) selective web archive assigns archived titles to subject and collection groupings. These curated collections help researchers find archived websites relating to specific topics or events, such as [election campaigns](http://pandora.nla.gov.au/subject/6). This notebook creates two datasets containing details of all Pandora's subjects and collections. The datasets can be used to [assemble subject-based collections of archived websites for research](https://glam-workbench.net/trove-web-archives/create-datasets/).",
             "encodingFormat": "application/x-ipynb+json",
             "mainEntityOfPage": {
                 "@id": "https://glam-workbench.net/trove-web-archives/harvest-pandora-subject-collections/"
