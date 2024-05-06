@@ -76,7 +76,7 @@
                 "@id": "https://glam-workbench.net/trove-web-archives/create-datasets/"
             },
             "name": "Create title datasets from collections and subjects",
-            "position": 0,
+            "position": 3,
             "programmingLanguage": {
                 "@id": "https://www.python.org/downloads/release/python-31012/"
             },
@@ -95,6 +95,9 @@
             "isPartOf": {
                 "@id": "https://github.com/GLAM-Workbench/trove-web-archives-titles"
             },
+            "license": {
+                "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
             "name": "pandora-titles.csv",
             "sdDatePublished": "2024-05-06",
             "size": 87741,
@@ -111,6 +114,9 @@
             "isPartOf": {
                 "@id": "https://github.com/GLAM-Workbench/trove-web-archives-collections"
             },
+            "license": {
+                "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
             "name": "pandora-subjects.ndjson",
             "sdDatePublished": "2024-05-06",
             "size": 149,
@@ -126,6 +132,9 @@
             "dateModified": "2024-05-02",
             "isPartOf": {
                 "@id": "https://github.com/GLAM-Workbench/trove-web-archives-collections"
+            },
+            "license": {
+                "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
             },
             "name": "pandora-collections.ndjson",
             "sdDatePublished": "2024-05-06",
@@ -183,7 +192,7 @@
                 "@id": "https://glam-workbench.net/trove-web-archives/harvest-pandora-titles/"
             },
             "name": "Harvest the full collection of Pandora titles",
-            "position": 0,
+            "position": 2,
             "programmingLanguage": {
                 "@id": "https://www.python.org/downloads/release/python-31012/"
             },
