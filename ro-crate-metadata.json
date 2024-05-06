@@ -9,7 +9,7 @@
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
-            "datePublished": "2024-05-06T06:19:13+00:00",
+            "datePublished": "2024-05-06",
             "description": "This repository includes information on finding, understanding, and using Pandora's collections of archived web pages.\n\n[Pandora](http://pandora.nla.gov.au/) has been selecting web sites and online resources for preservation since 1996. It has assembled a collection of more than 80,000 titles, organised into subjects and collections. The archived websites are now part of the Australian Web Archive (AWA), which combines the selected titles with broader domain harvests, and is searchable through Trove. However, Pandora's curated collections offer a useful entry point for researchers trying to find web sites relating to particular topics or events.\n\nThe [Web Archives](https://glam-workbench.net/web-archives/) section of the GLAM Workbench provides documentation, tools, and examples to help you work with data from a range of web archives, including the Australian Web Archive. The title urls obtained through Pandora can be used to obtain additional data from the AWA for analysis.",
             "hasPart": [
                 {
@@ -38,7 +38,8 @@
                 "@id": "https://glam-workbench.net/trove-web-archives"
             },
             "name": "trove-web-archives",
-            "url": "https://github.com/GLAM-Workbench/trove-web-archives/"
+            "url": "https://github.com/GLAM-Workbench/trove-web-archives/",
+            "version": "v1.0.0"
         },
         {
             "@id": "ro-crate-metadata.json",
@@ -52,79 +53,6 @@
             "license": {
                 "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
             }
-        },
-        {
-            "@id": "https://glam-workbench.net/trove-web-archives",
-            "@type": "CreativeWork",
-            "isPartOf": {
-                "@id": "https://glam-workbench.net/"
-            },
-            "name": "Trove web archive collections (Pandora)",
-            "url": "https://glam-workbench.net/trove-web-archives"
-        },
-        {
-            "@id": "https://glam-workbench.net/",
-            "@type": "CreativeWork",
-            "author": [
-                {
-                    "@id": "https://orcid.org/0000-0001-7956-4498"
-                }
-            ],
-            "description": "A collection of tools, tutorials, examples, and hacks to help researchers work with data from galleries, libraries, archives, and museums (the GLAM sector).",
-            "name": "GLAM Workbench",
-            "url": "https://glam-workbench.net/"
-        },
-        {
-            "@id": "https://orcid.org/0000-0001-7956-4498",
-            "@type": "Person",
-            "mainEntityOfPage": "https://timsherratt.au",
-            "name": "Sherratt, Tim",
-            "orcid": "https://orcid.org/0000-0001-7956-4498"
-        },
-        {
-            "@id": "https://spdx.org/licenses/MIT",
-            "@type": "CreativeWork",
-            "name": "MIT License",
-            "url": "https://spdx.org/licenses/MIT.html"
-        },
-        {
-            "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
-            "@type": "CreativeWork",
-            "name": "CC0 Public Domain Dedication",
-            "url": "https://creativecommons.org/publicdomain/zero/1.0/"
-        },
-        {
-            "@id": "http://rightsstatements.org/vocab/NKC/1.0/",
-            "@type": "CreativeWork",
-            "description": "The organization that has made the Item available reasonably believes that the Item is not restricted by copyright or related rights, but a conclusive determination could not be made.",
-            "name": "No Known Copyright",
-            "url": "http://rightsstatements.org/vocab/NKC/1.0/"
-        },
-        {
-            "@id": "http://rightsstatements.org/vocab/CNE/1.0/",
-            "@type": "CreativeWork",
-            "description": "The copyright and related rights status of this Item has not been evaluated.",
-            "name": "Copyright Not Evaluated",
-            "url": "http://rightsstatements.org/vocab/CNE/1.0/"
-        },
-        {
-            "@id": "https://www.python.org/downloads/release/python-31012/",
-            "@type": [
-                "ComputerLanguage",
-                "SoftwareApplication"
-            ],
-            "name": "Python 3.10.12",
-            "url": "https://www.python.org/downloads/release/python-31012/",
-            "version": "3.10.12"
-        },
-        {
-            "@id": "https://glam-workbench.net/trove-web-archives/create-datasets/",
-            "@type": "CreativeWork",
-            "isPartOf": {
-                "@id": "https://glam-workbench.net"
-            },
-            "name": "Harvest Pandora subjects and collections",
-            "url": "https://glam-workbench.net/trove-web-archives/create-datasets/"
         },
         {
             "@id": "create-datasets.ipynb",
@@ -214,15 +142,6 @@
             "url": "https://github.com/GLAM-Workbench/trove-web-archives-collections/raw/main/pandora-collections.ndjson"
         },
         {
-            "@id": "https://glam-workbench.net/trove-web-archives/harvest-pandora-subject-collections/",
-            "@type": "CreativeWork",
-            "isPartOf": {
-                "@id": "https://glam-workbench.net"
-            },
-            "name": "Harvest Pandora subjects and collections",
-            "url": "https://glam-workbench.net/trove-web-archives/harvest-pandora-subject-collections/"
-        },
-        {
             "@id": "harvest-pandora-subject-collections.ipynb",
             "@type": [
                 "File",
@@ -250,6 +169,117 @@
             },
             "url": "https://github.com/GLAM-Workbench/trove-web-archives/blob/master/harvest-pandora-subject-collections.ipynb",
             "workExample": []
+        },
+        {
+            "@id": "harvest-pandora-titles.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "category": "",
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-web-archives/",
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "This notebook harvests a complete collection of archived web page titles from [Pandora](http://pandora.nla.gov.au/), the National Library of Australia's selective web archive.\n\nPandora has been selecting web sites and online resources for preservation since 1996. It has assembled a collection of more than 80,000 titles, organised into subjects and collections. The archived websites are now part of the Australian Web Archive (AWA), which combines the selected titles with broader domain harvests, and is searchable through Trove. However, Pandora's curated collections offer a useful entry point for researchers trying to find web sites relating to particular topics or events.",
+            "encodingFormat": "application/x-ipynb+json",
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-web-archives/harvest-pandora-titles/"
+            },
+            "name": "Harvest the full collection of Pandora titles",
+            "position": 2,
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31012/"
+            },
+            "url": "https://github.com/GLAM-Workbench/trove-web-archives/blob/master/harvest-pandora-titles.ipynb",
+            "workExample": []
+        },
+        {
+            "@id": "https://glam-workbench.net/trove-web-archives",
+            "@type": "CreativeWork",
+            "isPartOf": {
+                "@id": "https://glam-workbench.net/"
+            },
+            "name": "Trove web archive collections (Pandora)",
+            "url": "https://glam-workbench.net/trove-web-archives"
+        },
+        {
+            "@id": "https://glam-workbench.net/",
+            "@type": "CreativeWork",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "description": "A collection of tools, tutorials, examples, and hacks to help researchers work with data from galleries, libraries, archives, and museums (the GLAM sector).",
+            "name": "GLAM Workbench",
+            "url": "https://glam-workbench.net/"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-7956-4498",
+            "@type": "Person",
+            "mainEntityOfPage": "https://timsherratt.au",
+            "name": "Sherratt, Tim",
+            "orcid": "https://orcid.org/0000-0001-7956-4498"
+        },
+        {
+            "@id": "https://spdx.org/licenses/MIT",
+            "@type": "CreativeWork",
+            "name": "MIT License",
+            "url": "https://spdx.org/licenses/MIT.html"
+        },
+        {
+            "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "@type": "CreativeWork",
+            "name": "CC0 Public Domain Dedication",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+            "@id": "http://rightsstatements.org/vocab/NKC/1.0/",
+            "@type": "CreativeWork",
+            "description": "The organization that has made the Item available reasonably believes that the Item is not restricted by copyright or related rights, but a conclusive determination could not be made.",
+            "name": "No Known Copyright",
+            "url": "http://rightsstatements.org/vocab/NKC/1.0/"
+        },
+        {
+            "@id": "http://rightsstatements.org/vocab/CNE/1.0/",
+            "@type": "CreativeWork",
+            "description": "The copyright and related rights status of this Item has not been evaluated.",
+            "name": "Copyright Not Evaluated",
+            "url": "http://rightsstatements.org/vocab/CNE/1.0/"
+        },
+        {
+            "@id": "https://www.python.org/downloads/release/python-31012/",
+            "@type": [
+                "ComputerLanguage",
+                "SoftwareApplication"
+            ],
+            "name": "Python 3.10.12",
+            "url": "https://www.python.org/downloads/release/python-31012/",
+            "version": "3.10.12"
+        },
+        {
+            "@id": "https://glam-workbench.net/trove-web-archives/create-datasets/",
+            "@type": "CreativeWork",
+            "isPartOf": {
+                "@id": "https://glam-workbench.net"
+            },
+            "name": "Harvest Pandora subjects and collections",
+            "url": "https://glam-workbench.net/trove-web-archives/create-datasets/"
+        },
+        {
+            "@id": "https://glam-workbench.net/trove-web-archives/harvest-pandora-subject-collections/",
+            "@type": "CreativeWork",
+            "isPartOf": {
+                "@id": "https://glam-workbench.net"
+            },
+            "name": "Harvest Pandora subjects and collections",
+            "url": "https://glam-workbench.net/trove-web-archives/harvest-pandora-subject-collections/"
         },
         {
             "@id": "https://glam-workbench.net/trove-web-archives/pandora-collections-data",
@@ -301,35 +331,6 @@
             "url": "https://glam-workbench.net/trove-web-archives/harvest-pandora-titles/"
         },
         {
-            "@id": "harvest-pandora-titles.ipynb",
-            "@type": [
-                "File",
-                "SoftwareSourceCode"
-            ],
-            "author": [
-                {
-                    "@id": "https://orcid.org/0000-0001-7956-4498"
-                }
-            ],
-            "category": "",
-            "codeRepository": "https://github.com/GLAM-Workbench/trove-web-archives/",
-            "conformsTo": {
-                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
-            },
-            "description": "This notebook harvests a complete collection of archived web page titles from [Pandora](http://pandora.nla.gov.au/), the National Library of Australia's selective web archive.\n\nPandora has been selecting web sites and online resources for preservation since 1996. It has assembled a collection of more than 80,000 titles, organised into subjects and collections. The archived websites are now part of the Australian Web Archive (AWA), which combines the selected titles with broader domain harvests, and is searchable through Trove. However, Pandora's curated collections offer a useful entry point for researchers trying to find web sites relating to particular topics or events.",
-            "encodingFormat": "application/x-ipynb+json",
-            "mainEntityOfPage": {
-                "@id": "https://glam-workbench.net/trove-web-archives/harvest-pandora-titles/"
-            },
-            "name": "Harvest the full collection of Pandora titles",
-            "position": 2,
-            "programmingLanguage": {
-                "@id": "https://www.python.org/downloads/release/python-31012/"
-            },
-            "url": "https://github.com/GLAM-Workbench/trove-web-archives/blob/master/harvest-pandora-titles.ipynb",
-            "workExample": []
-        },
-        {
             "@id": "https://glam-workbench.net/trove-web-archives/pandora-titles-data",
             "@type": "CreativeWork",
             "isPartOf": {
@@ -365,6 +366,15 @@
                     "@id": "https://github.com/GLAM-Workbench/trove-web-archives-titles/raw/main/pandora-titles.csv"
                 }
             ]
+        },
+        {
+            "@id": "#create_version_v1_0_0",
+            "@type": "UpdateAction",
+            "actionStatus": {
+                "@id": "http://schema.org/CompletedActionStatus"
+            },
+            "endDate": "2024-05-06",
+            "name": "Create version v1.0.0"
         }
     ]
 }
