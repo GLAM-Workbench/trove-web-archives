@@ -5,7 +5,7 @@
   "related_identifiers": [
     {
       "scheme": "url",
-      "identifier": "https://github.com/GLAM-Workbench/trove-web-archives/tree/v1.0.0",
+      "identifier": "https://github.com/GLAM-Workbench/trove-web-archives/tree/v1.0.1",
       "relation": "isDerivedFrom",
       "resource_type": "software"
     },
@@ -22,14 +22,14 @@
       "resource_type": "other"
     }
   ],
-  "version": "v1.0.0",
+  "version": "v1.0.1",
   "upload_type": "software",
   "keywords": [
     "digital humanities",
     "Jupyter",
     "GLAM Workbench"
   ],
-  "publication_date": "2024-05-06",
+  "publication_date": "2024-05-07",
   "creators": [
     {
       "name": "Sherratt, Tim",
